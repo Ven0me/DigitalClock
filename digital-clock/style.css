@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: skyblue;
+    color: black;
+    font-size: 16px;
+    padding: 9px 40px;
+    margin-top: 25px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.clock {
+    color: skyblue;
+    font-size: 70px;
+    letter-spacing: 10px;
+    font-family: monospace;
+}
